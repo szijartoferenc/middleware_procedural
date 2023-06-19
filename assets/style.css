@@ -1,0 +1,139 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+  }
+  
+  nav {
+    background-color: #333;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+  }
+  
+  nav a:hover {
+    background-color: #555;
+  }
+  
+  section {
+    text-align: center;
+    margin-top: 50px;
+  }
+  section.infopage{
+    text-align: left;
+    max-width: 998px;
+    padding: 50px 20px;
+    margin: auto;
+  }
+
+  section.infopage h1{
+    text-align: center;
+  }
+  
+  section.infopage ul, section.infopage ol{
+    margin: 10px 20px 30px 10px;
+  }
+
+  section h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  
+  section p {
+    font-size: 18px;
+  }
+
+  /*********login*******/
+
+
+  form {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 1px solid lightgrey;
+    box-shadow: 0 0 10px lightgrey;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  form h3{
+    text-align: center;
+    margin: 0 0 20px 0;
+
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+
+  /*error*/
+  .error-box {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .error-icon {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
+  .error-message {
+    margin: 0;
+  }
+
+  code{
+    background-color: #ececec;
+  }
